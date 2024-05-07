@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Varela Round;;
+ }
+ 
+ #navdiv {
+    border-bottom: 2px solid rgb(221, 207, 207);
+    height: 85px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ 
+ }
+ 
+ nav {
+    /* border: 2px solid red;  */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+ 
+ }
+ #menu>ul>li {
+    list-style: none;
+    font-family: Varela Round;
+    font-weight: bolder;
+    font-size: large;
+    
+ }
+ 
+ li>a{
+    text-decoration: none;
+    color:black ;
+ }
+ 
+ li>a:hover,#Logo:hover,#view_recipe>a:hover{
+    color: rgb(221, 76, 23);
+    transition: ease-in 0.1s;
+ }
+ 
+ #menu>ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+ }
+ 
+ #navdiv>nav>#Logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 2px solid red;  */
+ }
+ 
+ #menu {
+    width: 40%;
+ 
+ }
+ 
+ #Logo {
+    width: 30%;
+    font-family: Varela Round;
+    font-weight: bolder;
+    font-size: 250%;
+ } 
+
+ #recipe_img{
+   width: 200px;
+   height: 200px;
+}
+
+.card-title{
+   font-size: xx-large;
+   font-weight: bolder;
+}
+
+
+.card>img:hover,.card>.card-img-overlay:hover{
+  transform: scale(0.96);
+  transition: ease-in-out 0.2s;
+}
+
+#view_recipe>a{
+   text-decoration: none;
+   color: white;
+}
+
+
+.card{
+   display: flex;
+   align-items: baseline;
+}

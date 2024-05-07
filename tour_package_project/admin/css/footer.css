@@ -1,0 +1,16 @@
+#footer{
+    background-color: black;
+    height: 35vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: rgb(154,146,120);
+    position: relative;
+    top:70px;
+ 
+ }
+ #local{
+    position: relative;
+    top: 10px;
+ 
+ }
